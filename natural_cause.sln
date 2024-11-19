@@ -1,0 +1,14 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "nc_web", "nc_web\nc_web.mdproj", "{06784E82-F8FD-4B3E-A7BB-85F6C98EFA33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06784E82-F8FD-4B3E-A7BB-85F6C98EFA33}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{06784E82-F8FD-4B3E-A7BB-85F6C98EFA33}.Default|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+EndGlobal
