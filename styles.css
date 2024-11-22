@@ -8,7 +8,7 @@ img {
     width: auto\9; /* ie8 */
 }
 
-/* ----------- SOCIAL BAR -----------*/
+/*----------- SOCIAL BAR -----------*/
 .socials {
     position: absolute;
     left: 50%;
@@ -38,7 +38,7 @@ img.social:focus {
   height: 22px;
 }
 
-/* ----------- LOGO / HEADER -----------*/
+/*----------- LOGO / HEADER -----------*/
 .logo {
     margin: auto;
     width: 60%;
@@ -66,7 +66,7 @@ img.social:focus {
     display: inline-block;
 }
 
-/* ----------- NAVIGATION BAR -----------*/
+/*----------- NAVIGATION BAR -----------*/
 .navbar {
     position: absolute;
     left: 50%;
@@ -85,6 +85,50 @@ img.social:focus {
     display: inline-block;
 }
 
+.navbar_mobile {
+    display: none;
+
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    background: #222831;
+    z-index: 1;
+    width: 120px;
+}
+
+.navbar_mobile a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1rem 1rem;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.navbar_mobile a:hover {
+    color: #CCDDDD;
+}
+
+.navbar_mobile a:focus {
+    color: #CCDDDD;
+}
+
+#check {
+    /*display: none;*/
+}
+#check:checked ~ .navbar_mobile {
+    display: block;
+}
+
+@media only screen and (max-width:992px) {
+
+    .checkbtn {
+        display: block;
+        position: absolute;
+    }
+}
+
+/*----------- MENU LIST -----------*/
 .menu_list {
     list-style: none;
     margin: 0 auto;
@@ -111,7 +155,7 @@ img.social:focus {
     color: #CCDDDD;
 }
 
-/* ----------- LATEST RELEASE -----------*/
+/*----------- LATEST RELEASE -----------*/
 .latest {
     margin-top: 70px;
     text-decoration: none;
