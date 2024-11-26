@@ -100,11 +100,10 @@ img.social:focus {
         display: none;
     }
     .mobile_menu {
-        right: 1%;
+        float: right;
         margin: 0 auto;
         margin-top: 0px;
         padding: 0px;
-        display: inline-block;
     }
 }
 
