@@ -111,6 +111,15 @@ img.social:focus {
     color: #CCDDDD;
 }
 
+@media screen and (max-width: 800px) {
+    .navbar {
+      display: none;
+    }
+    .navbar_right {
+        display: none;
+      }
+}
+
 /* ----------- LATEST RELEASE -----------*/
 .latest {
     margin-top: 70px;
