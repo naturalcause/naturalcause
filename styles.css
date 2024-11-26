@@ -85,6 +85,30 @@ img.social:focus {
     display: inline-block;
 }
 
+.mobile_menu {
+    display: none;
+}
+
+@media screen and (max-width: 800px) { /* --- RESPONSIVE QUERIES --- */
+    .socials {
+        display: none;
+    }
+    .navbar {
+      display: none;
+    }
+    .navbar_right {
+        display: none;
+    }
+    .mobile_menu {
+        right: 1%;
+        margin: 0 auto;
+        margin-top: 0px;
+        padding: 0px;
+        display: inline-block;
+    }
+}
+
+/* ----------- MENU LIST/ITEM -----------*/
 .menu_list {
     list-style: none;
     margin: 0 auto;
@@ -109,15 +133,6 @@ img.social:focus {
 
 .menu_item a:hover {
     color: #CCDDDD;
-}
-
-@media screen and (max-width: 800px) {
-    .navbar {
-      display: none;
-    }
-    .navbar_right {
-        display: none;
-      }
 }
 
 /* ----------- LATEST RELEASE -----------*/
