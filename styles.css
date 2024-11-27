@@ -188,7 +188,13 @@ img.social:focus {
     font-weight: bold;
 }
 
-/* ----------- LATEST RELEASE -----------*/
+/* ----------- EMPTY BLOCK -----------*/
 .empty_block {
     padding-top: 450px;
+}
+
+/* ----------- AUDIO SNIPPETS -----------*/
+.snippet {
+    display: inline;
+    position: absolute;
 }
