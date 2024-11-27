@@ -153,13 +153,28 @@ img.social:focus {
 .menu_item a:hover {
     color: #CCDDDD;
 }
+.menu_item_i a:hover {
+    color: #CCDDDD;
+}
+
+@media screen and (max-width: 1300px) {
+    .menu_item {
+        padding-left: 2px;
+    }
+    .menu_item a {
+        font-size: 18px;
+    }
+}
 
 @media screen and (max-width: 1200px) { /* --- RESPONSIVE QUERIES --- CHANGE MENU ITEM FONT SIZE ON SMALLER SCREEN --- */
     .menu_item {
         padding-left: 0px;
     }
     .menu_item a {
-        font-size: 15px;
+        font-size: 16px;
+    }
+    .header_center {
+        font-size: 80px;
     }
 }
 
