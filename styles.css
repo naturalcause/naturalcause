@@ -187,3 +187,8 @@ img.social:focus {
     font-size: 60px;
     font-weight: bold;
 }
+
+/* ----------- LATEST RELEASE -----------*/
+.empty_block {
+    padding-top: 450px;
+}
