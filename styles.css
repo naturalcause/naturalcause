@@ -32,10 +32,30 @@ img {
     padding-left: 5px;
 }
 
-img.social:hover,
-img.social:focus {
-  width: 22px;
-  height: 22px;
+#bc:hover {
+    content: url(images/icons/bc_hover.png);
+}
+#ig:hover {
+    content: url(images/icons/ig_hover.png);
+}
+#tt:hover {
+    content: url(images/icons/tt_hover.png);
+}
+#yt:hover {
+    content: url(images/icons/yt_hover.png);
+}
+
+#bc:active {
+    content: url(images/icons/bc_hover.png);
+}
+#ig:active {
+    content: url(images/icons/ig_hover.png);
+}
+#tt:active {
+    content: url(images/icons/tt_hover.png);
+}
+#yt:active {
+    content: url(images/icons/yt_hover.png);
 }
 
 /* ----------- LOGO / HEADER -----------*/
@@ -156,8 +176,14 @@ img.social:focus {
 .menu_item_i a:hover {
     color: #CCDDDD;
 }
+.menu_item a:active {
+    color: #CCDDDD;
+}
+.menu_item_i a:active {
+    color: #CCDDDD;
+}
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) { /* --- RESPONSIVE QUERIES --- CHANGE MENU ITEM FONT SIZE ON SMALLER SCREEN --- */
     .menu_item {
         padding-left: 2px;
     }
