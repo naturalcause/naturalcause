@@ -45,19 +45,6 @@ img {
     content: url(images/icons/yt_hover.png);
 }
 
-#bc:active {
-    content: url(images/icons/bc_hover.png);
-}
-#ig:active {
-    content: url(images/icons/ig_hover.png);
-}
-#tt:active {
-    content: url(images/icons/tt_hover.png);
-}
-#yt:active {
-    content: url(images/icons/yt_hover.png);
-}
-
 /* ----------- LOGO / HEADER -----------*/
 .logo {
     margin: auto;
