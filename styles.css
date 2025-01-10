@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url(images/bg/bg_blur.jpg); /* DRAG AN IMAGE INTO THE IMAGES FOLDER AND REPLACE "bg_blur.jpg" WITH SAID IMAGE TO TEST IT AS THE BACKGROUND */
+    background-image: url(images/bg/bg_flower2.jpg); /* DRAG AN IMAGE INTO THE IMAGES FOLDER AND REPLACE "bg_blur.jpg" WITH SAID IMAGE TO TEST IT AS THE BACKGROUND */
 }
 
 img {
@@ -219,6 +219,18 @@ img {
     margin-top: 130px;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.body_text a {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.bandcamp {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 140px;
 }
 
 @media screen and (max-width: 1100px) { /* --- RESPONSIVE QUERIES --- CHANGE BODY TOP MARGIN ON MOBILE --- */
