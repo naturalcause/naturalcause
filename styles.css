@@ -66,6 +66,23 @@ img {
     display: inline-block;
 }
 
+.logo_left_mobile {
+    display: none;
+    width: 10%;
+    min-width: 100px;
+    padding-top: 0px;
+    padding-left: 2%;
+}
+
+@media screen and (max-width: 1100px) { /* --- RESPONSIVE QUERIES --- SWITCH TO MOBILE MENU --- */
+    .logo_left {
+        display: none;
+    }
+    .logo_left_mobile {
+        display: inline;
+    }
+}
+
 .header_center {
     position: absolute;
     left: 50%;
@@ -80,6 +97,12 @@ img {
     display: inline-block;
 }
 
+@media screen and (max-width: 1100px) { /* --- RESPONSIVE QUERIES --- SWITCH TO MOBILE MENU --- */
+    .header_center {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
 /* ----------- NAVIGATION BAR -----------*/
 .navbar {
     position: absolute;
