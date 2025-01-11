@@ -72,10 +72,55 @@
             No shows on the radar, watch this space.
         </div>
 
-        <img id="arz" src="images/shows/arz_sscshow.jpg">
+        <img id="db" class="show_image" src="images/shows/db_ferryshow.jpg">
+        <img id="arz" class="show_image" src="images/shows/arz_sscshow.jpg">
         <style>
+            .show_image {
+                position: absolute;
+            }
+
             #arz {
                 width: 50vw;
+                right: 11%;
+                top: 35%;
+            }
+
+            #db {
+                width: 40vw;
+                left: 10%;
+                top: 68%;
+            }
+
+            @media screen and (max-width: 1100px) {
+                #arz {
+                    width: 65vw;
+                    right: 9%;
+                }
+                #db {
+                    width: 50vw;
+                    left: 7%;
+                    top: 73%;
+                    z-index: 5;
+                }
+            }
+            @media screen and (max-width: 900px) {
+                .show_image {
+                    position: block;
+                    right: auto;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+                #arz {
+                    width: 80vw;
+                }
+                #db {
+                    width: 80vw;
+                    position: block;
+                    right: auto;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    padding-top: 10px;
+                }
             }
         </style>
     </body>
