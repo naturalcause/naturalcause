@@ -11,16 +11,6 @@
         <link rel="icon" type="image/png" sizes="32x32" href="images/ico/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
-
-        <script>
-            const hamMenu = document.querySelector('.ham_menu');
-            const offScreenMenu = document.querySelector('.off_screen_menu');
-            hamMenu.addEventListener('click', () => {
-                hamMenu.classList.toggle('active');
-                offScreenMenu.classList.toggle('active');
-            })
-
-        </script>
     </head>
 
     <body>
@@ -55,12 +45,12 @@
         <div class="mobile_menu">
             <div class="off_screen_menu">
                 <ul>
-                    <li class="menu_item"><a href="home.html">HOME</a></li>
-                    <li class="menu_item"><a href="about.html">ABOUT</a></li>
-                    <li class="menu_item"><a href="shows.html">SHOWS</a></li>
-                    <li class="menu_item"><a href="music.html">MUSIC</a></li>
-                    <li class="menu_item"><a href="store.html">STORE</a></li>
-                    <li class="menu_item"><a href="contact.html">CONTACT</a></li>
+                    <li class="menu_item_mobile"><a href="home.html">HOME</a></li>
+                    <li class="menu_item_mobile"><a href="about.html">ABOUT</a></li>
+                    <li class="menu_item_mobile"><a href="shows.html">SHOWS</a></li>
+                    <li class="menu_item_mobile"><a href="music.html">MUSIC</a></li>
+                    <li class="menu_item_mobile"><a href="store.html">STORE</a></li>
+                    <li class="menu_item_mobile"><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
             <div class="ham_menu">
@@ -79,7 +69,7 @@
         </div>
 
         <div class="logo">
-            <a href="index.html"><img src="images/logo/logo_white.png" alt="oops, looks like our logo isn't displaying correctly :("></a>
+            <a href="home.html"><img src="images/logo/logo_white.png" alt="oops, looks like our logo isn't displaying correctly :("></a>
         </div>
 
         <!--OLD CENTER BELOW LOGO NAVBAR
@@ -104,6 +94,15 @@
         <div class="empty_block"></div>
 
         <a href="secret.html">don't click</a>
+
+        <script>
+            const hamMenu = document.querySelector('.ham_menu');
+            const offScreenMenu = document.querySelector('.off_screen_menu');
+            hamMenu.addEventListener('click', () => {
+                hamMenu.classList.toggle('active');
+                offScreenMenu.classList.toggle('active');
+            })
+        </script>
     </body>
 
 </html>

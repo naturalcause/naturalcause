@@ -38,12 +38,12 @@
         <div class="mobile_menu">
             <div class="off_screen_menu">
                 <ul>
-                    <li class="menu_item"><a href="home.html">HOME</a></li>
-                    <li class="menu_item"><a href="about.html">ABOUT</a></li>
-                    <li class="menu_item"><a href="shows.html">SHOWS</a></li>
-                    <li class="menu_item"><a href="music.html">MUSIC</a></li>
-                    <li class="menu_item"><a href="store.html">STORE</a></li>
-                    <li class="menu_item"><a href="contact.html">CONTACT</a></li>
+                    <li class="menu_item_mobile"><a href="home.html">HOME</a></li>
+                    <li class="menu_item_mobile"><a href="about.html">ABOUT</a></li>
+                    <li class="menu_item_mobile"><a href="shows.html">SHOWS</a></li>
+                    <li class="menu_item_mobile"><a href="music.html">MUSIC</a></li>
+                    <li class="menu_item_mobile"><a href="store.html">STORE</a></li>
+                    <li class="menu_item_mobile"><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
             <div class="ham_menu">
@@ -71,6 +71,15 @@
         <div class="body_text">
             Store coming soon, I promise.
         </div>
+
+        <script>
+            const hamMenu = document.querySelector('.ham_menu');
+            const offScreenMenu = document.querySelector('.off_screen_menu');
+            hamMenu.addEventListener('click', () => {
+                hamMenu.classList.toggle('active');
+                offScreenMenu.classList.toggle('active');
+            })
+        </script>
     </body>
 
 </html>

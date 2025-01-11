@@ -167,11 +167,13 @@ img {
     align-items: center;
     text-align: center;
     font-size: 3rem;
-    transition: .3 ease;
+    transition: ease 0.4s;
+    z-index: 0;
 }
 
 .off_screen_menu.active {
     left: 0;
+    z-index: 1;
 }
 
 .ham_menu {
@@ -179,6 +181,7 @@ img {
     width: 50px;
     left: 0;
     position: relative;
+    z-index: 2;
 }
 
 .ham_menu span {
@@ -218,6 +221,10 @@ img {
     padding-right: 2px;
     padding-left: 5px;
 }
+.menu_item_mobile {
+    display: block;
+    padding: 0px;
+}
 .menu_item_i {
     display: inline;
     padding: 0px;
@@ -226,6 +233,12 @@ img {
 }
 
 .menu_item a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.menu_item_mobile a {
     text-decoration: none;
     color: #FFFFFF;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

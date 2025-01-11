@@ -38,12 +38,12 @@
         <div class="mobile_menu">
             <div class="off_screen_menu">
                 <ul>
-                    <li class="menu_item"><a href="home.html">HOME</a></li>
-                    <li class="menu_item"><a href="about.html">ABOUT</a></li>
-                    <li class="menu_item"><a href="shows.html">SHOWS</a></li>
-                    <li class="menu_item"><a href="music.html">MUSIC</a></li>
-                    <li class="menu_item"><a href="store.html">STORE</a></li>
-                    <li class="menu_item"><a href="contact.html">CONTACT</a></li>
+                    <li class="menu_item_mobile"><a href="home.html">HOME</a></li>
+                    <li class="menu_item_mobile"><a href="about.html">ABOUT</a></li>
+                    <li class="menu_item_mobile"><a href="shows.html">SHOWS</a></li>
+                    <li class="menu_item_mobile"><a href="music.html">MUSIC</a></li>
+                    <li class="menu_item_mobile"><a href="store.html">STORE</a></li>
+                    <li class="menu_item_mobile"><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
             <div class="ham_menu">
@@ -71,6 +71,15 @@
         <div class="bandcamp">
             <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1493345486/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://naturalcausenj.bandcamp.com/track/echoes">Echoes by Natural Cause</a></iframe>
         </div>
+
+        <script>
+            const hamMenu = document.querySelector('.ham_menu');
+            const offScreenMenu = document.querySelector('.off_screen_menu');
+            hamMenu.addEventListener('click', () => {
+                hamMenu.classList.toggle('active');
+                offScreenMenu.classList.toggle('active');
+            })
+        </script>
     </body>
 
 </html>
