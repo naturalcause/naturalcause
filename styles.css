@@ -95,7 +95,6 @@ img {
     font-weight: bold;
     font-style: italic;
     display: inline-block;
-    max-width: 90vw;
 }
 
 @media screen and (max-width: 1100px) { /* --- RESPONSIVE QUERIES --- SWITCH TO MOBILE MENU --- */
@@ -297,6 +296,11 @@ img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
     font-weight: bold;
+}
+@media screen and (max-width: 900px) { /* --- RESPONSIVE QUERIES --- CHANGE BODY FONT SIZE ON MOBILE --- */
+    #latest_img {
+        width: 70vw;
+    }
 }
 
 /* ----------- EMPTY BLOCK -----------*/
