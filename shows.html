@@ -72,8 +72,8 @@
             No shows on the radar, watch this space.
         </div>
 
-        <img id="db" class="show_image" src="images/shows/db_ferryshow.jpg">
         <img id="arz" class="show_image" src="images/shows/arz_sscshow.jpg">
+        <img id="db" class="show_image" src="images/shows/db_ferryshow.jpg">
         <style>
             .show_image {
                 position: absolute;
@@ -83,6 +83,7 @@
                 width: 50vw;
                 right: 11%;
                 top: 35%;
+                z-index: 2;
             }
 
             #db {
@@ -105,21 +106,17 @@
             }
             @media screen and (max-width: 900px) {
                 .show_image {
-                    position: block;
-                    right: auto;
-                    left: 50%;
-                    transform: translateX(-50%);
+                    all: initial;
+                    display: block;
+                    padding-top: 25px;
+                    margin-left: auto;
+                    margin-right: auto;
                 }
                 #arz {
                     width: 80vw;
                 }
                 #db {
                     width: 80vw;
-                    position: block;
-                    right: auto;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    padding-top: 10px;
                 }
             }
         </style>
