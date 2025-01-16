@@ -219,17 +219,36 @@ img {
 .ham_menu span:nth-child(3) {
     top: 75%;
 }
+.ham_menu span:nth-child(4) {
+    opacity: 0;
+    top: 50%;
+}
+.ham_menu span:nth-child(5) {
+    opacity: 0;
+    top: 75%;
+}
 
 .ham_menu.active span:nth-child(1) {
     top: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-77%, 20%) rotate(75deg);
 }
 .ham_menu.active span:nth-child(2) {
-    opacity: 0;
+    width: 65%;
+    transform: translate(-10%, -330%) rotate(-50deg);
 }
 .ham_menu.active span:nth-child(3) {
     top: 50%;
-    transform: translate(-50%, 50%) rotate(-45deg);
+    transform: translate(-90%, 50%) rotate(-90deg);
+}
+.ham_menu.active span:nth-child(4) {
+    opacity: 1;
+    top: 50%;
+    transform: translate(-63%, 50%) rotate(90deg);
+}
+.ham_menu.active span:nth-child(5) {
+    width: 65%;
+    opacity: 1;
+    transform: translate(-10%, 20%) rotate(50deg);
 }
 
 .menu_item {
