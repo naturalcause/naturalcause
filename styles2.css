@@ -293,10 +293,16 @@ img {
 .menu_item_i a:hover {
     color: #CCDDDD;
 }
+.menu_item_mobile a:hover {
+    color: #CCDDDD;
+}
 .menu_item a:active {
     color: #CCDDDD;
 }
 .menu_item_i a:active {
+    color: #CCDDDD;
+}
+.menu_item_mobile a:active {
     color: #CCDDDD;
 }
 
